@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang E-Libary</title>
+    <link rel="stylesheet" href="styleperpus.css">
+    <script defer src="scriptperpus.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <img src="Foto/kaltim.png" alt="kaltim">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Buku</a></li>
+                <li><a href="#">Peminjaman</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+                
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <section id="Beranda" class="section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>E-SkagaLibrary</h1>
+                    <h2>SMK Negeri 2 Samarinda</h2>
+                </div>
+                <img src="Foto/ilustrasi.png" alt="Ilustrasi E-Library" class="hero-image">
+            </div>
+        </section>
+
+        <section id="About" class="section">
+            <div class="about-container">
+                <div class="abouttext">
+                    <h2>About Us</h2>
+                    <h3>Perpustakaan SMKN 2 Samarinda</h3>
+                </div>
+                <div class="aboutdesc">
+                    <p>Perpustakaan SMKN 2 Samarinda merupakan pusat informasi dan pembelajaran yang dirancang untuk mendukung proses pendidikan di lingkungan sekolah. Dengan koleksi buku yang terus diperbarui, mulai dari literatur pelajaran hingga buku-buku pengembangan diri dan teknologi terbaru, perpustakaan ini hadir sebagai ruang inspiratif bagi seluruh warga sekolah.</p>
+                    <p>Kami percaya bahwa membaca adalah jendela dunia. Oleh karena itu, perpustakaan kami tidak hanya menyediakan layanan peminjaman buku secara fisik, tetapi juga mengembangkan sistem E-Library yang memungkinkan siswa dan guru mengakses koleksi digital kapan pun dan di mana pun. Dengan memadukan teknologi dan literasi, kami berkomitmen menciptakan budaya membaca yang menyenangkan, inklusif, dan modern.</p>
+                </div>  
+            </div>
+        </section>
+        <section id="Buku" class="section">
+                <div class="buku-container">
+                    <h1>Jenis Buku di Perpustakaan </h1>
+                        <div class="buku-list">
+                            <div class="buku-item">
+                                <h2>Buku Pelajaran Pokok</h2>
+                                <img src="Foto/buku pokok.png" alt="Buku pelajaran pokok">
+                                <p>Buku yang berisi materi pelajaran sesuai kurikulum.</p>
+                            </div>
+                            <div class="buku-item">
+                                <h2>Buku Pelajaran Pelengkap</h2>
+                                <img src="Foto/buku tambahan.png" alt="Buku pelajaran pelengkap">
+                                <p>Digunakan untuk memperdalam atau memperluas materi pelajaran utama.</p>
+                            </div>
+                            <div class="buku-item">
+                                <h2>Buku Bacaan</h2>
+                                <img src="Foto/buku cerita.png" alt="Buku bacaan">
+                                <p>Buku yang digunakan untuk membaca dan memahami ilmu pengetahuan.</p>
+                            </div>
+                            <div class="buku-item">
+                                <h2>Buku Sumber</h2>
+                                <img src="Foto/tambahan.png" alt="Buku sumber">
+                                <p>Ensiklopedia, kamus, dan buku referensi lainnya.</p>
+                            </div>
+                        </div>
+                </div>
+            </class=>
+        </section>
+
+        <section id="Peminjaman"class="section">
+            <section id="Peminjaman" class="section">
+                <div class="peminjaman-container">
+                    <div class="peminjaman-text">
+                        <h2>Peminjaman Buku</h2>
+                    </div>
+                    <form id="peminjaman-form">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="kelas">Kelas:</label>
+                        <input type="text" id="kelas" name="kelas" required>
+            
+                        <label for="judul">Judul Buku:</label>
+                        <input type="text" id="judul" name="judul" required>
+            
+                        <label for="pinjam">Tanggal Peminjaman:</label>
+                        <input type="date" id="pinjam" name="pinjam" required>
+            
+                        <label for="kembali">Tanggal Pengembalian:</label>
+                        <input type="date" id="kembali" name="kembali" required>
+            
+                        <button type="submit" class="login-button">Peminjaman</button>
+                    </form>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-container">
+            <div class="contact-left">
+                <div class="contact-img">
+                    <img src="Foto/Logo SMK.png" alt="logo-smkn2">
+                        <h2>E-SkagaLibrary</h2>
+                        <p>SMK Negeri 2 Samarinda</p>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-text">
+                        <h2>Kontak Kami</h2>
+                        <p>Jika ada pertanyaan atau butuh bantuan, silakan hubungi kami melalui kontak di bawah ini:</p>
+                    </div>
+                    <div class="contact-info">
+                        <p><strong>Alamat:</strong> Sempaja Lestari Indah Blok L No.1</p>
+                        <p><strong>Telepon:</strong> 0835-2115-0023</p>
+                        <p><strong>Email:</strong> smkn1samarinda.sch.id</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 E-SkagaLibrary SMK Negeri 2 Samarinda. All rights reserved.</p>        
+        </div>
+        
+    </footer>
+</body>
+</html>
+
+
